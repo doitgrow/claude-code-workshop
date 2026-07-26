@@ -20,8 +20,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Add `tech_doc/ClaudeCode-Architecture.pdf`, a Claude Code architecture deep-dive document.
 - Add `tech_doc/Claude_Cost_Efficiency.pdf`, a Claude cost efficiency guide.
 - Add a root `CLAUDE.md` documenting repository layout and content conventions for Claude Code.
-- Add `ccw-hands-on-lab/`, a hands-on lab archive of self-contained HTML guides: six chapter labs (Ch1–Ch6) and four capstone labs (main, B, C, D), entered through an `index.html` portal page.
-- Add three reference pages to the lab archive covering slash commands, plugins, and the Claude Code directory structure.
+- Add `ccw-hands-on-lab/`, a hands-on lab archive of self-contained HTML guides: six chapter labs (Ch1–Ch6) and three capstone missions (Press Start, Market Desk, Frame It) with a setup guide, entered through an `index.html` portal page; legacy capstone labs (A–D) remain as standalone files.
+- Add three reference pages to the lab archive covering the Claude Code directory structure, slash commands, and plugins.
+- Add a preflight-check page and a session-intro (eDM) page to the lab archive, cross-linked with the lab portal.
 - Add GitHub link cards for the 20260703 slide sources and `tech_doc/` to the lab portal page.
 - Publish the hands-on lab guides to GitHub Pages at [whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/).
 
@@ -88,8 +89,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Claude Code 아키텍처 심층 문서 `tech_doc/ClaudeCode-Architecture.pdf` 추가.
 - Claude 비용 효율화 가이드 `tech_doc/Claude_Cost_Efficiency.pdf` 추가.
 - 저장소 구조와 콘텐츠 규약을 기술한 루트 `CLAUDE.md` 추가.
-- 챕터별 랩 6개(Ch1–Ch6)와 캡스톤 랩 4개(main, B, C, D)를 독립 실행형 HTML로 담은 핸즈온랩 아카이브 `ccw-hands-on-lab/`을 `index.html` 포털 페이지와 함께 추가.
-- 슬래시 커맨드, 플러그인, Claude Code 디렉토리 구조를 다루는 참조 문서 3종을 랩 아카이브에 추가.
+- 챕터별 랩 6개(Ch1–Ch6)와 캡스톤 미션 3개(Press Start, Market Desk, Frame It) 및 설치 가이드를 독립 실행형 HTML로 담은 핸즈온랩 아카이브 `ccw-hands-on-lab/`을 `index.html` 포털 페이지와 함께 추가. 레거시 캡스톤 랩(A–D)은 독립 파일로 유지.
+- Claude Code 디렉토리 구조, 슬래시 커맨드, 플러그인을 다루는 참조 문서 3종을 랩 아카이브에 추가.
+- 랩 포털과 상호 연결된 사전 점검(Preflight) 페이지와 세션 소개(eDM) 페이지를 랩 아카이브에 추가.
 - 랩 포털 페이지에 20260703 강의자료와 `tech_doc/`으로 연결되는 GitHub 링크 카드 추가.
 - 핸즈온랩 가이드를 GitHub Pages([whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/))에 게시.
 
