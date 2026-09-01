@@ -20,7 +20,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Add `tech_doc/ClaudeCode-Architecture.pdf`, a Claude Code architecture deep-dive document.
 - Add `tech_doc/Claude_Cost_Efficiency.pdf`, a Claude cost efficiency guide.
 - Add a root `CLAUDE.md` documenting repository layout and content conventions for Claude Code.
-- Add `ccw-hands-on-lab/`, a hands-on lab archive of self-contained HTML guides: six chapter labs (Ch1–Ch6) and three capstone missions (Press Start, Market Desk, Frame It) with a setup guide, entered through an `index.html` portal page; legacy capstone labs (A–D) remain as standalone files.
+- Add `ccw-hands-on-lab/`, a hands-on lab archive of self-contained HTML guides: six chapter labs (Ch1–Ch6) and six capstone missions (Press Start, Market Desk, Frame It, Trend Radar, Quake Watch, Newsroom Lens) with a setup guide, entered through an `index.html` portal page; legacy capstone labs (A–D) remain as standalone files.
+- Add a dark/light theme toggle to every lab page, with a projector-optimized light palette and per-page light-mode overrides for code panels, tables, part dividers, and tooltips.
 - Add three reference pages to the lab archive covering the Claude Code directory structure, slash commands, and plugins.
 - Add a preflight-check page and a session-intro (eDM) page to the lab archive, cross-linked with the lab portal.
 - Add GitHub link cards for the 20260703 slide sources and `tech_doc/` to the lab portal page.
@@ -89,7 +90,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Claude Code 아키텍처 심층 문서 `tech_doc/ClaudeCode-Architecture.pdf` 추가.
 - Claude 비용 효율화 가이드 `tech_doc/Claude_Cost_Efficiency.pdf` 추가.
 - 저장소 구조와 콘텐츠 규약을 기술한 루트 `CLAUDE.md` 추가.
-- 챕터별 랩 6개(Ch1–Ch6)와 캡스톤 미션 3개(Press Start, Market Desk, Frame It) 및 설치 가이드를 독립 실행형 HTML로 담은 핸즈온랩 아카이브 `ccw-hands-on-lab/`을 `index.html` 포털 페이지와 함께 추가. 레거시 캡스톤 랩(A–D)은 독립 파일로 유지.
+- 챕터별 랩 6개(Ch1–Ch6)와 캡스톤 미션 6개(Press Start, Market Desk, Frame It, Trend Radar, Quake Watch, Newsroom Lens) 및 설치 가이드를 독립 실행형 HTML로 담은 핸즈온랩 아카이브 `ccw-hands-on-lab/`을 `index.html` 포털 페이지와 함께 추가. 레거시 캡스톤 랩(A–D)은 독립 파일로 유지.
+- 모든 랩 페이지에 다크/라이트 테마 토글 추가. 프로젝터에 최적화된 라이트 팔레트와 코드 패널·표·파트 구분선·툴팁에 대한 페이지별 라이트 모드 오버라이드 포함.
 - Claude Code 디렉토리 구조, 슬래시 커맨드, 플러그인을 다루는 참조 문서 3종을 랩 아카이브에 추가.
 - 랩 포털과 상호 연결된 사전 점검(Preflight) 페이지와 세션 소개(eDM) 페이지를 랩 아카이브에 추가.
 - 랩 포털 페이지에 20260703 강의자료와 `tech_doc/`으로 연결되는 GitHub 링크 카드 추가.

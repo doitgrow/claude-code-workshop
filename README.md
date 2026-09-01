@@ -21,7 +21,8 @@ Claude Code Deep Dive Workshop is a Korean-language technical curriculum deliver
 
 - **Six chapter PDFs per edition** — Overview, Agents & Subagents, Admin Setup, Settings, CLI Reference, and the Agent SDK; each curriculum edition ships in a date-stamped directory (`20260525/`, `20260703/`). The latest `20260703/` edition is newly authored against Claude Code 2.1.198.
 - **Supplementary technical documents** — `tech_doc/` carries deep-dive references beyond the curriculum: `ClaudeCode-Architecture.pdf` and `Claude_Cost_Efficiency.pdf`.
-- **Hands-on lab guides** — `ccw-hands-on-lab/` provides self-contained HTML lab guides: one per chapter (Ch1–Ch6), three capstone missions (Press Start, Market Desk, Frame It) with a setup guide, three reference pages (directory structure, slash commands, plugins), and preflight-check and session-intro pages, with an `index.html` portal page as the entry point. Published at [whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/).
+- **Hands-on lab guides** — `ccw-hands-on-lab/` provides self-contained HTML lab guides: one per chapter (Ch1–Ch6), six capstone missions (Press Start, Market Desk, Frame It, Trend Radar, Quake Watch, Newsroom Lens) with a setup guide, three reference pages (directory structure, slash commands, plugins), and preflight-check and session-intro pages, with an `index.html` portal page as the entry point. Published at [whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/).
+- **Dark/light theme toggle** — every lab page ships an embedded theme toggle; the light palette is tuned for projector legibility in a lit room, and the choice persists across pages via `localStorage`.
 - **502 extracted code snippets** — Each code-bearing slide is exported as a numbered markdown file under `Script/workshop-code/`, organized by chapter and part for fast lookup.
 - **Bilingual coverage in code** — Python and TypeScript samples appear side by side across SDK material, with three authentication paths (Anthropic Direct, Amazon Bedrock, Vertex AI).
 - **Korean speaker notes per snippet** — Every extracted markdown file embeds the original Korean speaker script alongside the code.
@@ -87,7 +88,7 @@ claude-code-workshop/
 ├── ccw-hands-on-lab/                          # Hands-on lab guides (HTML)
 │   ├── index.html                             # Lab portal entry page
 │   ├── ClaudeCode_Ch{1..6}_HandsOnLab.html    # Chapter labs (Ch1–Ch6)
-│   ├── ClaudeCode_Capstone*_HandsOnLab.html   # Capstone missions 1–3 and legacy labs (A–D)
+│   ├── ClaudeCode_Capstone*_HandsOnLab.html   # Capstone missions 1–6 and legacy labs (A–D)
 │   ├── ClaudeCode_Reference{1..3}_*.html      # Reference pages (directory, commands, plugins)
 │   └── ClaudeCode_*_{Setup,Check}.html, eDM   # Capstone setup, preflight check, session intro
 ├── tech_doc/                                  # Supplementary technical documents
@@ -147,7 +148,8 @@ Claude Code Deep Dive Workshop은 발표 가능한 PDF 슬라이드 자료와 �
 
 - **에디션별 6개 챕터 PDF** — Overview, Agents & Subagents, Admin Setup, Settings, CLI Reference, Agent SDK. 각 커리큘럼 에디션은 날짜 디렉토리(`20260525/`, `20260703/`)로 제공됩니다. 최신 `20260703/` 에디션은 Claude Code 2.1.198 기준으로 새로 제작되었습니다.
 - **보조 기술 문서** — `tech_doc/`에 커리큘럼 외 심층 참고 자료인 `ClaudeCode-Architecture.pdf`와 `Claude_Cost_Efficiency.pdf`가 포함됩니다.
-- **핸즈온랩 가이드** — `ccw-hands-on-lab/`에 챕터별 랩 6개(Ch1–Ch6), 캡스톤 미션 3개(Press Start, Market Desk, Frame It)와 설치 가이드, 참조 문서 3개(디렉토리 구조, 슬래시 커맨드, 플러그인), 사전 점검·세션 소개 페이지가 독립 실행형 HTML로 제공되며, 진입점 역할을 하는 `index.html` 포털 페이지가 포함됩니다. [whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/)에 게시되어 있습니다.
+- **핸즈온랩 가이드** — `ccw-hands-on-lab/`에 챕터별 랩 6개(Ch1–Ch6), 캡스톤 미션 6개(Press Start, Market Desk, Frame It, Trend Radar, Quake Watch, Newsroom Lens)와 설치 가이드, 참조 문서 3개(디렉토리 구조, 슬래시 커맨드, 플러그인), 사전 점검·세션 소개 페이지가 독립 실행형 HTML로 제공되며, 진입점 역할을 하는 `index.html` 포털 페이지가 포함됩니다. [whchoi98.github.io/ccw-hands-on-lab](https://whchoi98.github.io/ccw-hands-on-lab/)에 게시되어 있습니다.
+- **다크/라이트 테마 토글** — 모든 랩 페이지에 테마 토글이 내장되어 있으며, 라이트 팔레트는 밝은 강의장 프로젝터 가독성에 맞춰 조정되어 있습니다. 선택은 `localStorage`로 저장되어 페이지 간에 유지됩니다.
 - **502개 추출 코드 스니펫** — 코드를 포함하는 모든 슬라이드가 `Script/workshop-code/` 아래에 챕터·파트 단위로 번호가 매겨진 마크다운으로 정리되어 빠른 검색이 가능합니다.
 - **코드 수준의 이중 언어 지원** — SDK 자료 전반에 Python과 TypeScript 예제가 나란히 제공되며, 3가지 인증 경로(Anthropic Direct, Amazon Bedrock, Vertex AI)를 모두 다룹니다.
 - **스니펫별 한국어 발표자 노트** — 추출된 모든 마크다운 파일에 코드와 함께 원본 한국어 발표 스크립트가 포함됩니다.
@@ -213,7 +215,7 @@ claude-code-workshop/
 ├── ccw-hands-on-lab/                          # 핸즈온랩 가이드 (HTML)
 │   ├── index.html                             # 랩 포털 진입 페이지
 │   ├── ClaudeCode_Ch{1..6}_HandsOnLab.html    # 챕터별 랩 (Ch1–Ch6)
-│   ├── ClaudeCode_Capstone*_HandsOnLab.html   # 캡스톤 미션 1–3 및 레거시 랩 (A–D)
+│   ├── ClaudeCode_Capstone*_HandsOnLab.html   # 캡스톤 미션 1–6 및 레거시 랩 (A–D)
 │   ├── ClaudeCode_Reference{1..3}_*.html      # 참조 문서 (디렉토리, 커맨드, 플러그인)
 │   └── ClaudeCode_*_{Setup,Check}.html, eDM   # 캡스톤 설치, 사전 점검, 세션 소개
 ├── tech_doc/                                  # 보조 기술 문서
